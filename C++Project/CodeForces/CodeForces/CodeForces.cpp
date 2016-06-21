@@ -1,10 +1,10 @@
 // CodeForces.cpp : Defines the entry point for the console application.
 
-Problem: http://codeforces.com/problemset/problem/682/B
+/*Problem: http://codeforces.com/problemset/problem/682/B
 
 @author:Meera
 email:meekar67@gmail.com
-//
+*/
 
 #include "stdafx.h"
 #include <iostream>
