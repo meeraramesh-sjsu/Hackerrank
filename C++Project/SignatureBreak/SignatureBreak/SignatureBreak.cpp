@@ -3,14 +3,16 @@
 
 #include "stdafx.h"
 #include <iostream>
-
+#include <stack>
+#include<vector>
 using namespace std;
 
 int main()
 {
-	char *inputTemp = "Meera are you";
+	 char *inputTemp = "Hello, how are you";
+	 cout << inputTemp <<endl;
 	char *input = "0x48656C6C6F";
-	char *tempo = inputTemp;
+	  char *tempo = inputTemp;
 	bool found = true;
 	while (*tempo != '\0')
 	{
@@ -37,6 +39,11 @@ int main()
 		if (a[i] == input[i])
 			cout << "Equal ";
 	}
+	vector<int> tdsdf;
+	tdsdf.push_back(1);
+	stack<int, vector<int>> stkVec;
+	stkVec.push(2);
+	stkVec.push(tdsdf);
     return 0;
 }
 
