@@ -3,6 +3,12 @@
 @Problem: https://leetcode.com/problems/minimum-window-substring/
 @email: meekar67@gmail.com
 */
+#include <string>
+#include <iostream>
+#include <climits>
+#include <stdint.h>
+
+using namespace std;
 class Solution {
 public:
     string minWindow(string s, string t) {
